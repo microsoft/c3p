@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3p/c3p.iml" filepath="$PROJECT_DIR$/c3p/c3p.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordova/cordova.iml" filepath="$PROJECT_DIR$/cordova/cordova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactnative/reactnative.iml" filepath="$PROJECT_DIR$/reactnative/reactnative.iml" />
+    </modules>
+  </component>
+</project>

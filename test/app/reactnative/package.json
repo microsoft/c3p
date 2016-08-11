@@ -1,0 +1,15 @@
+{
+  "name": "c3p-test-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "c3p-reactnative": "../../../src/lib/build/reactnative",
+    "c3p-test-reactnative": "../../plugin/build/reactnative",
+    "react": "15.0.2",
+    "react-native": "0.26.1",
+    "react-native-button": "^1.6.0"
+  }
+}

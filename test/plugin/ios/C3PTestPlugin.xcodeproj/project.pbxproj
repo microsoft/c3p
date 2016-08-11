@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96AC65341C78E41800E9E6AD /* C3PTTestLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC65331C78E41800E9E6AD /* C3PTTestLifecycle.m */; };
+		96AC653A1C7AE22E00E9E6AD /* C3PTTestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC65391C7AE22E00E9E6AD /* C3PTTestContext.m */; };
+		F0015F0D1C627DD700B6FD0F /* C3PTTestEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = F0015F041C627DD700B6FD0F /* C3PTTestEvents.m */; };
+		F0015F0E1C627DD700B6FD0F /* C3PTTestMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F0015F061C627DD700B6FD0F /* C3PTTestMethods.m */; };
+		F0015F0F1C627DD700B6FD0F /* C3PTTestOuter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0015F081C627DD700B6FD0F /* C3PTTestOuter.m */; };
+		F0015F101C627DD700B6FD0F /* C3PTTestProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F0015F0A1C627DD700B6FD0F /* C3PTTestProperties.m */; };
+		F0015F111C627DD700B6FD0F /* C3PTTestStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = F0015F0C1C627DD700B6FD0F /* C3PTTestStruct.m */; };
+		F071E3891C84B9A100C38A20 /* C3PTTestAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = F071E3881C84B9A100C38A20 /* C3PTTestAsync.m */; };
+		F0D6519C1CEB927900CE5E80 /* C3PTTestOneWayStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D6519B1CEB927900CE5E80 /* C3PTTestOneWayStruct.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0015EF51C627D8C00B6FD0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96AC65321C78E41800E9E6AD /* C3PTTestLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestLifecycle.h; sourceTree = "<group>"; };
+		96AC65331C78E41800E9E6AD /* C3PTTestLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestLifecycle.m; sourceTree = "<group>"; };
+		96AC65381C7AE22E00E9E6AD /* C3PTTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestContext.h; sourceTree = "<group>"; };
+		96AC65391C7AE22E00E9E6AD /* C3PTTestContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestContext.m; sourceTree = "<group>"; };
+		F0015EF71C627D8C00B6FD0F /* libC3PTestPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libC3PTestPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0015F031C627DD700B6FD0F /* C3PTTestEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestEvents.h; sourceTree = "<group>"; };
+		F0015F041C627DD700B6FD0F /* C3PTTestEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestEvents.m; sourceTree = "<group>"; };
+		F0015F051C627DD700B6FD0F /* C3PTTestMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestMethods.h; sourceTree = "<group>"; };
+		F0015F061C627DD700B6FD0F /* C3PTTestMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestMethods.m; sourceTree = "<group>"; };
+		F0015F071C627DD700B6FD0F /* C3PTTestOuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestOuter.h; sourceTree = "<group>"; };
+		F0015F081C627DD700B6FD0F /* C3PTTestOuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestOuter.m; sourceTree = "<group>"; };
+		F0015F091C627DD700B6FD0F /* C3PTTestProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestProperties.h; sourceTree = "<group>"; };
+		F0015F0A1C627DD700B6FD0F /* C3PTTestProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestProperties.m; sourceTree = "<group>"; };
+		F0015F0B1C627DD700B6FD0F /* C3PTTestStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestStruct.h; sourceTree = "<group>"; };
+		F0015F0C1C627DD700B6FD0F /* C3PTTestStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestStruct.m; sourceTree = "<group>"; };
+		F0015F121C628F1800B6FD0F /* C3PTestPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C3PTestPlugin.h; sourceTree = "<group>"; };
+		F071E3871C84B9A100C38A20 /* C3PTTestAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestAsync.h; sourceTree = "<group>"; };
+		F071E3881C84B9A100C38A20 /* C3PTTestAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestAsync.m; sourceTree = "<group>"; };
+		F0D6519A1CEB927900CE5E80 /* C3PTTestOneWayStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3PTTestOneWayStruct.h; sourceTree = "<group>"; };
+		F0D6519B1CEB927900CE5E80 /* C3PTTestOneWayStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3PTTestOneWayStruct.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0015EF41C627D8C00B6FD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0015EEE1C627D8C00B6FD0F = {
+			isa = PBXGroup;
+			children = (
+				F0015EF91C627D8C00B6FD0F /* C3PTestPlugin */,
+				F0015EF81C627D8C00B6FD0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0015EF81C627D8C00B6FD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0015EF71C627D8C00B6FD0F /* libC3PTestPlugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0015EF91C627D8C00B6FD0F /* C3PTestPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F0015F121C628F1800B6FD0F /* C3PTestPlugin.h */,
+				F0015F031C627DD700B6FD0F /* C3PTTestEvents.h */,
+				F0015F041C627DD700B6FD0F /* C3PTTestEvents.m */,
+				F0015F051C627DD700B6FD0F /* C3PTTestMethods.h */,
+				F0015F061C627DD700B6FD0F /* C3PTTestMethods.m */,
+				F0015F071C627DD700B6FD0F /* C3PTTestOuter.h */,
+				F0015F081C627DD700B6FD0F /* C3PTTestOuter.m */,
+				F0015F091C627DD700B6FD0F /* C3PTTestProperties.h */,
+				F0015F0A1C627DD700B6FD0F /* C3PTTestProperties.m */,
+				F0015F0B1C627DD700B6FD0F /* C3PTTestStruct.h */,
+				F0015F0C1C627DD700B6FD0F /* C3PTTestStruct.m */,
+				96AC65321C78E41800E9E6AD /* C3PTTestLifecycle.h */,
+				96AC65331C78E41800E9E6AD /* C3PTTestLifecycle.m */,
+				96AC65381C7AE22E00E9E6AD /* C3PTTestContext.h */,
+				96AC65391C7AE22E00E9E6AD /* C3PTTestContext.m */,
+				F071E3871C84B9A100C38A20 /* C3PTTestAsync.h */,
+				F071E3881C84B9A100C38A20 /* C3PTTestAsync.m */,
+				F0D6519A1CEB927900CE5E80 /* C3PTTestOneWayStruct.h */,
+				F0D6519B1CEB927900CE5E80 /* C3PTTestOneWayStruct.m */,
+			);
+			path = C3PTestPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0015EF61C627D8C00B6FD0F /* C3PTestPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0015F001C627D8C00B6FD0F /* Build configuration list for PBXNativeTarget "C3PTestPlugin" */;
+			buildPhases = (
+				F0015EF31C627D8C00B6FD0F /* Sources */,
+				F0015EF41C627D8C00B6FD0F /* Frameworks */,
+				F0015EF51C627D8C00B6FD0F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C3PTestPlugin;
+			productName = C3PTestPlugin;
+			productReference = F0015EF71C627D8C00B6FD0F /* libC3PTestPlugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0015EEF1C627D8C00B6FD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					F0015EF61C627D8C00B6FD0F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F0015EF21C627D8C00B6FD0F /* Build configuration list for PBXProject "C3PTestPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0015EEE1C627D8C00B6FD0F;
+			productRefGroup = F0015EF81C627D8C00B6FD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0015EF61C627D8C00B6FD0F /* C3PTestPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0015EF31C627D8C00B6FD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0015F111C627DD700B6FD0F /* C3PTTestStruct.m in Sources */,
+				F0015F0D1C627DD700B6FD0F /* C3PTTestEvents.m in Sources */,
+				96AC65341C78E41800E9E6AD /* C3PTTestLifecycle.m in Sources */,
+				F071E3891C84B9A100C38A20 /* C3PTTestAsync.m in Sources */,
+				F0015F0F1C627DD700B6FD0F /* C3PTTestOuter.m in Sources */,
+				F0D6519C1CEB927900CE5E80 /* C3PTTestOneWayStruct.m in Sources */,
+				96AC653A1C7AE22E00E9E6AD /* C3PTTestContext.m in Sources */,
+				F0015F101C627DD700B6FD0F /* C3PTTestProperties.m in Sources */,
+				F0015F0E1C627DD700B6FD0F /* C3PTTestMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F0015EFE1C627D8C00B6FD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0015EFF1C627D8C00B6FD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0015F011C627D8C00B6FD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0015F021C627D8C00B6FD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0015EF21C627D8C00B6FD0F /* Build configuration list for PBXProject "C3PTestPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0015EFE1C627D8C00B6FD0F /* Debug */,
+				F0015EFF1C627D8C00B6FD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0015F001C627D8C00B6FD0F /* Build configuration list for PBXNativeTarget "C3PTestPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0015F011C627D8C00B6FD0F /* Debug */,
+				F0015F021C627D8C00B6FD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0015EEF1C627D8C00B6FD0F /* Project object */;
+}

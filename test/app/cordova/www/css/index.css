@@ -1,0 +1,60 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    height:100%;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#testHeader {
+    background-color:#E4E4FF;
+    background-image:linear-gradient(top, #A7A7C7 0%, #E4E4FF 80%);
+    background-image:-webkit-linear-gradient(top, #A7A7C7 0%, #E4E4FF 80%);
+    background-image:-ms-linear-gradient(top, #A7A7C7 0%, #E4E4FF 80%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #A7A7C7),
+        color-stop(80%, #E4E4FF)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 14em;
+    text-align: center;
+    height: 14em;
+}
+
+h1 {
+    font-size: 18pt;
+    font-weight: normal;
+    margin-top: 1.6em;
+    margin-bottom: 1em;
+    padding:0;
+}
+
+#testLog {
+    overflow-y: scroll;
+    position: absolute;
+    top: 14em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    padding: 0.8em;
+    font-size: 9pt;
+}
+
+#testButton {
+    font-size: 14pt;
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}

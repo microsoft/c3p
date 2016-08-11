@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="c3p-cordova" version="0.1.0" xmlns="http://schemas.microsoft.com/c3p/0.1">
+  <name>C3P Cordova Lib</name>
+  <description>Provides runtime library support for C3P plugins for Cordova.</description>
+  <author>jasongin@microsoft.com</author>
+  <keywords>c3p,cordova,plugin</keywords>
+  <license>MIT</license>
+
+  <platform name="android">
+  </platform>
+  <platform name="ios">
+  </platform>
+  <platform name="windows">
+  </platform>
+</plugin>

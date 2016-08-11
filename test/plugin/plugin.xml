@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="c3p-test" version="0.1.0"
+        xmlns="http://schemas.microsoft.com/c3p/0.1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>C3P Test Plugin</name>
+    <description>This plugin includes a variety of APIs for testing purposes.</description>
+    <author>jasongin@microsoft.com</author>
+    <keywords>c3p,test</keywords>
+    <license>MIT</license>
+
+    <assembly name="C3PTestPlugin" js-target="c3p.test">
+        <class name="TestStruct" marshal-by-value="true" />
+        <class name="TestOneWayStruct" marshal-by-value="true" />
+        <class name="TestOuter+InnerStruct" marshal-by-value="true" />
+        <class name="TestProperties">
+            <type-binding member="StaticEnumProperty" type="Microsoft.C3P.Test.TestEnum" />
+            <type-binding member="EnumProperty" type="Microsoft.C3P.Test.TestEnum" />
+            <type-binding member="UuidProperty" type="System.Guid" />
+            <type-binding member="NullableIntProperty" type="int?" />
+            <type-binding member="NullableDoubleProperty" type="double?" />
+        </class>
+        <class name="TestOuter">
+            <type-binding member="InnerEnumProperty"
+                type="Microsoft.C3P.Test.TestOuter+InnerEnum" />
+        </class>
+        <class name="TestMethods">
+            <type-binding member="EchoUuid" type="System.Guid" />
+            <type-binding member="EchoUuid" parameterIndex="0" type="System.Guid" />
+            <type-binding member="EchoNullableInt" type="int?" />
+            <type-binding member="EchoNullableInt" parameterIndex="0" type="int?" />
+            <type-binding member="EchoNullableBool" type="bool?" />
+            <type-binding member="EchoNullableBool" parameterIndex="0" type="bool?" />
+        </class>
+        <class name="TestAsync">
+            <type-binding member="EchoUuidAsync" type="System.Guid" />
+            <type-binding member="EchoUuidAsync" parameterIndex="0" type="System.Guid" />
+            <type-binding member="EchoNullableIntAsync" type="int?" />
+            <type-binding member="EchoNullableIntAsync" parameterIndex="0" type="int?" />
+            <type-binding member="EchoNullableBoolAsync" type="bool?" />
+            <type-binding member="EchoNullableBoolAsync" parameterIndex="0" type="bool?" />
+        </class>
+    </assembly>
+
+    <platform name="android">
+        <namespace-mapping
+            package="com.microsoft.c3p.test"
+            namespace="Microsoft.C3P.Test" />
+
+        <enum name="com.microsoft.c3p.test.TestEnum" />
+        <enum name="com.microsoft.c3p.test.TestOuter+InnerEnum" />
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.microsoft.c3p.test.TestContext$TestActivity">
+            </activity>
+        </config-file>
+    </platform>
+
+    <platform name="ios">
+        <namespace-mapping
+            prefix="C3PT"
+            namespace="Microsoft.C3P.Test" />
+    </platform>
+
+    <platform name="windows">
+        <include namespace="Microsoft.C3P.Test" />
+    </platform>
+</plugin>

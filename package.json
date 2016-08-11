@@ -1,0 +1,13 @@
+{
+  "name": "c3p",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-platform plugin packager for Cordova, React Native, and Xamarin",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,1 @@
+This is an Android class library to be imported by all plugins' Android Java code. It supplies utility classes and methods common to all plugins, including access to the application context and plugin lifecycle.

@@ -1,0 +1,9 @@
+{
+  "name": "c3p-cordova",
+  "version": "0.1.0",
+  "description": "Provides runtime library support for C3P plugins for Cordova.",
+  "keywords": [ "c3p", "cordova" ],
+  "author": "jasongin@microsoft.com",
+  "license": "MIT",
+  "main": "www/C3P-Cordova.js"
+}

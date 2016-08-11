@@ -1,0 +1,1 @@
+The lib directory includes TypeScript and native code that gets packaged with the plugin where it provides runtime support for the plugin code.
