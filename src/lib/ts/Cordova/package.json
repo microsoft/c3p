@@ -1,7 +1,11 @@
 {
   "name": "c3p-cordova",
-  "version": "0.1.0",
-  "description": "Provides runtime library support for C3P plugins for Cordova.",
+  "version": "0.1.1",
+  "description": "C3P runtime library for Cordova",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microsoft/c3p.git"
+  },
   "keywords": [ "c3p", "cordova" ],
   "author": "jasongin@microsoft.com",
   "license": "MIT",

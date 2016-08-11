@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "description": "Cross-platform plugin packager for Cordova, React Native, and Xamarin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microsoft/c3p.git"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-newer": "^1.1.0",

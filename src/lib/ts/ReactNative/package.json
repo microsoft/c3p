@@ -1,7 +1,11 @@
 {
   "name": "c3p-reactnative",
-  "version": "0.1.0",
-  "description": "C3P runtime library for React Native.",
+  "version": "0.1.1",
+  "description": "C3P runtime library for React Native",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microsoft/c3p.git"
+  },
   "keywords": [ "c3p", "react native" ],
   "author": "jasongin@microsoft.com",
   "license": "MIT",
